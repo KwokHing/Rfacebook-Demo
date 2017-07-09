@@ -106,7 +106,7 @@ plot(table(ntucPosts$type),ylab="Count of Post Type")
 ```
 
 
-![png](output_13_0.png)
+![png](images/output_13_0.png)
 
 
 6) Let's take a look at the number of __Likes__ &amp; __Reactions__ in each Post Type
@@ -466,7 +466,7 @@ hist(ntucSentiScores$score,xlab="Sentiment Score")
 ```
 
 
-![png](output_52_0.png)
+![png](images/output_52_0.png)
 
 
 he histogram shows that most of the comments have a score hovering around the 0 score mark. The histogram depicts a normal distribution indicating that most of the comments are neutral with some positive and negative comments
@@ -512,7 +512,7 @@ plot(table(ntucCommentsClean$sentiment_polar),ylab="Frequency")
 ```
 
 
-![png](output_57_0.png)
+![png](images/output_57_0.png)
 
 
 
@@ -549,11 +549,11 @@ plot(table(ntucLink$sentiment_polar),ylab="Frequency")
 
 
 
-![png](output_60_2.png)
+![png](images/output_60_2.png)
 
 
 
-![png](output_60_3.png)
+![png](images/output_60_3.png)
 
 
 ### Text Frequency Analysis ###
@@ -604,7 +604,7 @@ wordcloud(corpus, random.order = F, min.freq=2, max.words=250,
 ```
 
 
-![png](output_66_0.png)
+![png](images/output_66_0.png)
 
 
 ### Page Trend Analysis ###
@@ -674,7 +674,7 @@ ggplot(df, aes(x = month, y = x, group = metric)) +
 
 
 
-![png](output_74_1.png)
+![png](images/output_74_1.png)
 
 
 ### Organisation FB Post Day/Time Heatmap ###
@@ -739,7 +739,7 @@ for (i in 1:24) {
 d3heatmap(heatmapFrame, scale = "column",dendrogram = "none", color = scales::col_quantile("Blues", NULL, 5))
 ```
 
-![](https://www.dropbox.com/s/v4i3iytljc04e02/HeatMap_ntucPosts.gif?dl=0)
+![gif](images/HeatMap_ntucPosts.gif)
 
 *Jupyter does not seem to be able to render the __d3heatmap__, so do run the code in RStudio to see the heatmap in action*
 
