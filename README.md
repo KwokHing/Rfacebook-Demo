@@ -26,11 +26,6 @@ library(Rfacebook)
 - Replace __app_id="xxx"__ with your App ID code
 - Replace __app_secret="xxx"__ with your App Secret code
 
-__*Could not get Jupyter Notebook to run FB OAuth*  
-*Thus, the pre-scraped FB UGC using local RStudio in .csv will be uploaded instead*__  
-
-*Please email me at kleong014@e.ntu.edu.sg should you manage to run FB OAuth on Jupyter*
-
 
 ```R
 token <- "EAACEdEose0cBAOMkpbqrmc8pR0w9qzblJmuYE7R8jZBk03eAcHPDRvLaoBdyWHMZB9gHgrjr3R3N4RkNZCkKmGqiI7tlSk6eLO6ZCzZCZAQrqmCltGZBQZA9jBRJjy52R7SthKFp7sHHC4KpM9aAlKoZC8tLQp9JvRbgMEmGFZB609Yw92z2wCdCRJwppsJy1v3OYZD"
@@ -47,13 +42,6 @@ load("fb_oauth")
 
 ```R
 ntucPosts <- getPage("thatsmyfairprice", token, n = 5000, reactions = T)
-```
-
-*Due to not being able to connect to FB OAuth via Jupyter, a pre-scraped .csv is used instead*
-
-
-```R
-ntucPosts <- read.csv("ntucPosts.csv")
 ```
 
 
@@ -164,13 +152,6 @@ for (i in 1:length(ntucPosts$id)){
     ntucComment[[i]][['comments']][1,] <- c(NA,NA,NA,NA,NA,NA,NA)
 }
 ntucComments <- do.call(rbind, lapply(ntucComment, data.frame, stringsAsFactors=FALSE))
-```
-
-*Due to not being able to connect to FB OAuth via Jupyter, a pre-scraped .csv is used instead*
-
-
-```R
-ntucComments <- read.csv("ntucComments.csv")
 ```
 
 
@@ -740,8 +721,6 @@ d3heatmap(heatmapFrame, scale = "column",dendrogram = "none", color = scales::co
 ```
 
 ![gif](images/HeatMap_ntucPosts.gif)
-
-*Jupyter does not seem to be able to render the __d3heatmap__, so do run the code in RStudio to see the heatmap in action*
 
 You can amend the codes to create and show the day and time heatmap for customers' comments using the above provided code 
 
