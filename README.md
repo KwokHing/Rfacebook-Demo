@@ -753,3 +753,10 @@ ntucPostFreq
 
 
 It seems that the organisation would create a new post every __6.5__ days
+
+
+### Future Improvements ###
+
+Further analysis such as:
+- comparision of organisation's post timing and customers' active timing can be performed to determine if the organisation is posting contents at the right time
+- topic analysis (via the use of LDAvis) on customers' contents can be perform to determine what topics/subjects customers are talking about or are interested in
