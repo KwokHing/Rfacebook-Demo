@@ -11,6 +11,7 @@ This demo will provide a brief introduction in
 - creating a heatmap of the page posts by day and time 
 - and the page's posting frequency. 
 
+
 1) Installing the [__Rfacebook package__](https://cran.r-project.org/web/packages/Rfacebook/Rfacebook.pdf)  
 
 
