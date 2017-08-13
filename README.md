@@ -3,7 +3,13 @@
 
 *The Rfacebook package is authored and maintained by Pablo Barbera and Michael Piccirilli*  
 
-This demo will give a brief introduction in setting up and using the Rfacebook package to scrape public pages posts and comments. A simple lexicon-based sentiment analysis and text analysis will be applied onto the scraped user generated content (UGC). Lastly, a simple trend analysis based on the page's "likes", "shares" and "comments" will also be carried out. We will also find out the organisation posting frequency. 
+This demo will provide a brief introduction in 
+- setting up and using the Rfacebook package to scrape public pages posts and comments. 
+- performing a simple lexicon-based sentiment analysis 
+- performing text frequency analysis with thee use of word cloud will be applied
+- plotting a simple trend analysis based on the page's "likes", "shares" and "comments" 
+- creating a heatmap of the page posts by day and time 
+- and the page's posting frequency. 
 
 1) Installing the [__Rfacebook package__](https://cran.r-project.org/web/packages/Rfacebook/Rfacebook.pdf)  
 
