@@ -35,7 +35,7 @@ library(Rfacebook)
 
 
 ```R
-token <- "EAACEdEose0cBAOMkpbqrmc8pR0w9qzblJmuYE7R8jZBk03eAcHPDRvLaoBdyWHMZB9gHgrjr3R3N4RkNZCkKmGqiI7tlSk6eLO6ZCzZCZAQrqmCltGZBQZA9jBRJjy52R7SthKFp7sHHC4KpM9aAlKoZC8tLQp9JvRbgMEmGFZB609Yw92z2wCdCRJwppsJy1v3OYZD"
+token <- "xxxxxxxxxx"
 fb_oauth <- fbOAuth(app_id="xxx",app_secret="xxx",extended_permissions = TRUE)
 
 save(fb_oauth, file="fb_oauth")
