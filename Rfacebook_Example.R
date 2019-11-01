@@ -5,9 +5,9 @@ library(Rfacebook)
 ######## Setting up Facebook authentication
 # Get FB Token (2 hrs temp access)
 # https://developers.facebook.com/tools/explorer
-token <- "EAACEdEose0cBACFOP2rCGZArunNUZBT2tgYzuEe2a8Bk5TOXMc1ZCP38wtYyjGn1N9ZCbTAQ4kwkRqdnVaQpk1Qdrh37ajTKHZAcFs82gzM9OzAT7rZCZCZAkNAbebcqZBAZCzqfUwZA64AUpPZB9jZC5UDiijthCszFDXHW5lBsGqZAn3fDGR5HzWTNIsQLDy2J1Wu2wZD"
+token <- "xxxxxxxxxxxxxxxx"
 require("Rfacebook")
-fb_oauth <- fbOAuth(app_id="723697751144500",app_secret="ca94ca71b8165f1f6cff1b61abc4c843",extended_permissions = TRUE)
+fb_oauth <- fbOAuth(app_id="xxxxx",app_secret="xxxxxxxxxx",extended_permissions = TRUE)
 
 save(fb_oauth, file="fb_oauth")
 load("fb_oauth")
