@@ -1,5 +1,5 @@
 
-# Facebook Analysis using Rfacebook Package # 
+## Facebook Analysis using Rfacebook Package ## 
 
 *The Rfacebook package is authored and maintained by Pablo Barbera and Michael Piccirilli*  
 
@@ -10,6 +10,8 @@ This demo will provide a brief introduction in
 - plotting a simple trend analysis based on the page's "likes", "shares" and "comments" 
 - creating a heatmap of the page posts by day and time 
 - and the page's posting frequency. 
+
+## Codes Walkthrough
 
 
 1) Installing the [__Rfacebook package__](https://cran.r-project.org/web/packages/Rfacebook/Rfacebook.pdf)  
