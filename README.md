@@ -1,3 +1,4 @@
+### Update: Permission is required for using Facebook Graph API for scraping public pages not owned by yourself ###
 
 ## Facebook Analysis using Rfacebook Package ## 
 
